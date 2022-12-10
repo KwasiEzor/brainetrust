@@ -15,7 +15,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        $users = User::paginate(10);
+        $users = User::with('roles.permissions','permissions')->paginate(10);
+//        dd($users);
         return view('admin.users.index',compact('users'));
     }
 
@@ -43,12 +44,13 @@ class UserController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  User $user
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(User $user)
     {
         //
+        return view('admin.users.show',compact('user'));
     }
 
     /**

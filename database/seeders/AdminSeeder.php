@@ -34,7 +34,7 @@ class AdminSeeder extends Seeder
             ]
         );
         $super_admin->assignRole('super-admin');
-        $super_admin->givePermissionTo($permissions);
+        $super_admin->givePermissionTo(Permission::all());
         $admin =  User::factory()->create(
             [
                 'name' =>'admin',
@@ -45,6 +45,6 @@ class AdminSeeder extends Seeder
             ]
         );
        $admin->assignRole('admin');
-       $admin->givePermissionTo($permissions);
+       $admin->givePermissionTo(Permission::all());
     }
 }

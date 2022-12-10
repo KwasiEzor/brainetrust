@@ -33,15 +33,17 @@
                                     </td>
                                     <td class="d-flex align-items-center justify-content-center">
                                         <a href="{{route('admin.roles.edit',$role)}}" class="btn btn-success mr-2">
-                                            Edit
+                                            <i class="fas fa-edit"></i>
                                         </a>
-                                        <form action="{{route('admin.roles.delete',$role)}}"  id="admin-delete-role" method="POST">
-                                            @csrf()
-                                            @method('DELETE')
-                                            <button class="btn btn-danger" type="submit" onclick="confirm('Are you sure ?'); document.getElementById('admin-delete-role').submit()">
-                                                <i class="fas fa-trash"></i>
-                                            </button>
-                                        </form>
+                                        @can('delete')
+                                            <form action="{{route('admin.roles.delete',$role)}}"  id="admin-delete-role" method="POST">
+                                                @csrf()
+                                                @method('DELETE')
+                                                <button class="btn btn-danger" type="submit" onclick="confirm('Are you sure ?'); document.getElementById('admin-delete-role').submit()">
+                                                    <i class="fas fa-trash"></i>
+                                                </button>
+                                            </form>
+                                        @endcan()
 
                                     </td>
                                 </tr>

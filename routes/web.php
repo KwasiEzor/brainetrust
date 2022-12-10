@@ -24,6 +24,12 @@ Route::group(['middleware' => ['role:super-admin|admin']], function () {
     Route::get('/admin/profile',[\App\Http\Controllers\Admin\AdminController::class,'profile'])->name('admin.profile');
     Route::controller(\App\Http\Controllers\Admin\UserController::class)->group(function(){
         Route::get('/admin/users','index')->name('admin.users.index');
+        Route::get('/admin/users/create','create')->name('admin.users.create');
+        Route::post('/admin/users','store')->name('admin.users.store');
+        Route::get('/admin/users/{user}','show')->name('admin.users.show');
+        Route::get('/admin/users/{user}/edit','edit')->name('admin.users.edit');
+        Route::put('/admin/users/{user}','update')->name('admin.users.update');
+        Route::delete('/admin/users/{user}','destroy')->name('admin.users.delete');
     });
     Route::controller(\App\Http\Controllers\Admin\PermissionController::class)->group(function(){
         Route::get('/admin/permissions','index')->name('admin.permissions.index');

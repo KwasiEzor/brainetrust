@@ -5,13 +5,13 @@
             <div class="col-md-10 mx-auto">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Create Roles</h3>
+                        <h3 class="card-title">Create User</h3>
 
                     </div>
                     <!-- /.card-header -->
                     <form action="{{route('admin.roles.store')}}" method="POST" class="admin-role-create">
                         @csrf
-                    <div class="card-body">
+                        <div class="card-body">
 
                             <div class="form-group">
                                 <label for="name" class="form-label mb-2">
@@ -25,11 +25,11 @@
                                 @enderror
                             </div>
 
-                    </div>
-                    <!-- /.card-body -->
-                    <div class="card-footer clearfix">
-                        <button type="submit" class="btn btn-success">Add Role</button>
-                    </div>
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer clearfix">
+                            <button type="submit" class="btn btn-success">Add Role</button>
+                        </div>
                     </form>
                 </div>
                 <!-- /.card -->

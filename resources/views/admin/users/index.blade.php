@@ -6,6 +6,10 @@
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Users</h3>
+                        <a href="{{route('admin.users.create')}}" class="btn btn-primary float-right">
+                            <i class="fas fa-plus-square mr-1"></i>
+                            New User
+                        </a>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
@@ -15,6 +19,7 @@
                                 <th style="width: 10px">ID</th>
                                 <th>Name</th>
                                 <th>Email</th>
+                                <th>Roles</th>
                                 <th style="width: auto">Created At</th>
                                 <th style="width: auto">Actions</th>
                             </tr>
@@ -28,11 +33,19 @@
                                    {{$user->email}}
                                 </td>
                                 <td>
-                                    {{$user->created_at}}
+                                    @foreach($user->roles as $role)
+                                        {{$role->name}}
+                                    @endforeach
                                 </td>
                                 <td>
-                                    <a href="" class="btn btn-success">
-                                        Edit
+                                    {{$user->created_at->format('Y-m-d')}}
+                                </td>
+                                <td>
+                                    <a href="{{route('admin.users.show',$user)}}" class="btn btn-success">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="{{route('admin.users.edit',$user)}}" class="btn btn-warning">
+                                        <i class="fas fa-edit"></i>
                                     </a>
                                     <button class="btn btn-danger">
                                         <i class="fas fa-trash"></i>

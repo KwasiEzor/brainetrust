@@ -33,7 +33,7 @@
                                     </td>
                                     <td class="d-flex align-items-center justify-content-center">
                                         <a href="{{route('admin.permissions.edit',$permission)}}" class="btn btn-success mr-2">
-                                            Edit
+                                            <i class="fas fa-edit"></i>
                                         </a>
                                         <form action="{{route('admin.permissions.delete',$permission)}}"  id="admin-delete-role" method="POST">
                                             @csrf()
