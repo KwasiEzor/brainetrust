@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Permissions\StorePermissionRequest;
+use App\Http\Requests\Permissions\UpdatePermissionRequest;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Permission;
 
@@ -27,6 +29,7 @@ class PermissionController extends Controller
     public function create()
     {
         //
+        return view('admin.permissions.create');
     }
 
     /**
@@ -35,18 +38,20 @@ class PermissionController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StorePermissionRequest $request)
     {
         //
+        $permission = Permission::create($request->validated());
+        return redirect()->route('admin.permissions.index')->with('success','Permission created succesfully');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  Permission $permission
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Permission $permission)
     {
         //
     }
@@ -54,34 +59,37 @@ class PermissionController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  Permission $permission
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Permission $permission)
     {
-        //
+        return view('admin.permissions.edit',compact('permission'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  Permission $permission
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UpdatePermissionRequest $request, Permission $permission)
     {
         //
+        $permission->update($request->validated());
+        return redirect()->route('admin.permissions.index')->with('success','Permission updated succesfully');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  Permission $permission
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Permission $permission)
     {
-        //
+        $permission->delete();
+        return redirect()->route('admin.permissions.index')->with('success','Permission deleted succesfully');
     }
 }

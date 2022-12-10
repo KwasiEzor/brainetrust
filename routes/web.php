@@ -27,6 +27,11 @@ Route::group(['middleware' => ['role:super-admin|admin']], function () {
     });
     Route::controller(\App\Http\Controllers\Admin\PermissionController::class)->group(function(){
         Route::get('/admin/permissions','index')->name('admin.permissions.index');
+        Route::get('/admin/permission','create')->name('admin.permissions.create');
+        Route::post('/admin/permission','store')->name('admin.permissions.store');
+        Route::get('/admin/permissions/{permission}','edit')->name('admin.permissions.edit');
+        Route::put('/admin/permissions/{permission}','update')->name('admin.permissions.update');
+        Route::delete('/admin/permissions/{permission}','destroy')->name('admin.permissions.delete');
     });
     Route::controller(\App\Http\Controllers\Admin\RoleController::class)->group(function(){
         Route::get('/admin/roles','index')->name('admin.roles.index');

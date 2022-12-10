@@ -8,7 +8,7 @@
                         <h3 class="card-title">Roles</h3>
                         <a href="{{route('admin.roles.create')}}" class="btn btn-primary float-right">
                             <i class="fas fa-plus-square mr-1"></i>
-                            Add
+                            New Role
                         </a>
                     </div>
                     <!-- /.card-header -->

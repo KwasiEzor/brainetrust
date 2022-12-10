@@ -6,6 +6,10 @@
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Permissions</h3>
+                        <a href="{{route('admin.permissions.create')}}" class="btn btn-primary float-right">
+                            <i class="fas fa-plus-square mr-1"></i>
+                            New Permission
+                        </a>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
@@ -15,7 +19,7 @@
                                 <th style="width: 10px">ID</th>
                                 <th>Name</th>
                                 <th style="width: auto">Created At</th>
-                                <th style="width: auto">Actions</th>
+                                <th style="width: auto" class="text-center">Actions</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -25,15 +29,19 @@
                                     <td>{{$permission->name}}</td>
 
                                     <td>
-                                        {{$permission->created_at}}
+                                        {{$permission->created_at->format('Y-m-d')}}
                                     </td>
-                                    <td>
-                                        <a href="" class="btn btn-success">
+                                    <td class="d-flex align-items-center justify-content-center">
+                                        <a href="{{route('admin.permissions.edit',$permission)}}" class="btn btn-success mr-2">
                                             Edit
                                         </a>
-                                        <button class="btn btn-danger">
-                                            <i class="fas fa-trash"></i>
-                                        </button>
+                                        <form action="{{route('admin.permissions.delete',$permission)}}"  id="admin-delete-role" method="POST">
+                                            @csrf()
+                                            @method('DELETE')
+                                            <button class="btn btn-danger" type="submit" onclick="confirm('Are you sure ?'); document.getElementById('admin-delete-role').submit()">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </form>
                                     </td>
                                 </tr>
                             @empty
