@@ -28,7 +28,7 @@ Route::group(['middleware' => ['role:super-admin|admin']], function () {
         Route::post('/admin/users','store')->name('admin.users.store');
         Route::get('/admin/users/{user}','show')->name('admin.users.show');
         Route::get('/admin/users/{user}/edit','edit')->name('admin.users.edit');
-        Route::put('/admin/users/{user}','update')->name('admin.users.update');
+        Route::patch('/admin/users/{user}','update')->name('admin.users.update');
         Route::delete('/admin/users/{user}','destroy')->name('admin.users.delete');
     });
     Route::controller(\App\Http\Controllers\Admin\PermissionController::class)->group(function(){

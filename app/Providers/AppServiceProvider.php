@@ -5,6 +5,8 @@ namespace App\Providers;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Validation\Rules\Password;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -36,6 +38,14 @@ class AppServiceProvider extends ServiceProvider
                 ->symbols()
                 ->mixedCase()
                 ->uncompromised();
+        });
+
+        // Send Roles and Permissions data to the admin users view
+        view()->composer('admin.users.edit',function($view){
+            $view->with([
+                'roles'=>Role::all(),
+                'permissions'=>Permission::all(),
+            ]);
         });
     }
 }

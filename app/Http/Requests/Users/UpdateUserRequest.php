@@ -26,8 +26,8 @@ class UpdateUserRequest extends FormRequest
     {
         return [
             //
-            'name'=>'required|string|max:255',
-            'email'=>'required|email|max:255|unique:users',
+            'name'=>'sometimes|string|max:255',
+            'email'=>'sometimes|email|max:255|unique:users',
             'password'=>['sometimes',Password::defaults(),'confirmed']
         ];
     }
