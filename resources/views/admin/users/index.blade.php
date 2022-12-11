@@ -21,7 +21,7 @@
                                 <th>Email</th>
                                 <th>Roles</th>
                                 <th style="width: auto">Created At</th>
-                                <th style="width: auto">Actions</th>
+                                <th style="width: auto" class="text-center">Actions</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -40,8 +40,8 @@
                                 <td>
                                     {{$user->created_at->format('Y-m-d')}}
                                 </td>
-                                <td>
-                                    <a href="{{route('admin.users.show',$user)}}" class="btn btn-success">
+                                <td class="d-flex align-items-center justify-content-center " style="gap:5px;">
+                                    <a href="{{route('admin.users.show',$user)}}" class="btn btn-success ">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                     <a href="{{route('admin.users.edit',$user)}}" class="btn btn-warning">

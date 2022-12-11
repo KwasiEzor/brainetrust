@@ -3,10 +3,13 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Users\AssignRolesToUserRequest;
+use App\Http\Requests\Users\GivePermissionToUserRequest;
 use App\Http\Requests\Users\StoreUserRequest;
 use App\Http\Requests\Users\UpdateUserRequest;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\View\View;
 
@@ -61,6 +64,21 @@ class UserController extends Controller
         return view('admin.users.show',compact('user'));
     }
 
+    public function addRoles(User $user,AssignRolesToUserRequest $request)
+    {
+        //dd($request->validated());
+
+        DB::table('model_has_roles')->where('model_id', $user->id)->delete();
+        $user->assignRole($request->input('roles'));
+        return redirect()->back()->with('success','User roles added successfully');
+    }
+
+    public function givePermissions(User $user,GivePermissionToUserRequest $request)
+    {
+        DB::table('model_has_permissions')->where('model_id',$user->id)->delete();
+        $user->givePermissionTo($request->input('permissions'));
+        return redirect()->back()->with('success','User permissions added successfully');
+    }
     /**
      * Show the form for editing the specified resource.
      *

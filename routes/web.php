@@ -27,6 +27,8 @@ Route::group(['middleware' => ['role:super-admin|admin']], function () {
         Route::get('/admin/users/create','create')->name('admin.users.create');
         Route::post('/admin/users','store')->name('admin.users.store');
         Route::get('/admin/users/{user}','show')->name('admin.users.show');
+        Route::put('/admin/users/{user}/roles','addRoles')->name('admin.users.add-roles');
+        Route::put('/admin/users/{user}/permissions','givePermissions')->name('admin.users.add-permissions');
         Route::get('/admin/users/{user}/edit','edit')->name('admin.users.edit');
         Route::patch('/admin/users/{user}','update')->name('admin.users.update');
         Route::delete('/admin/users/{user}','destroy')->name('admin.users.delete');

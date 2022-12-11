@@ -41,7 +41,7 @@ class AppServiceProvider extends ServiceProvider
         });
 
         // Send Roles and Permissions data to the admin users view
-        view()->composer('admin.users.edit',function($view){
+        view()->composer('admin.users.show',function($view){
             $view->with([
                 'roles'=>Role::all(),
                 'permissions'=>Permission::all(),

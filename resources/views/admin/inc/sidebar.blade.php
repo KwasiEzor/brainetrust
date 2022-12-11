@@ -47,7 +47,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="{{route('admin.permissions.index')}}" class="nav-link">
-                        <i class="nav-icon fas fa-edit"></i>
+                        <i class="nav-icon fas fa-clipboard-list"></i>
                         <p>
                             Permissions
                         </p>
@@ -55,7 +55,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="{{route('admin.roles.index')}}" class="nav-link">
-                        <i class="nav-icon fas fa-users"></i>
+                        <i class="nav-icon fas fa-users-cog"></i>
                         <p>
                             Roles
                         </p>
