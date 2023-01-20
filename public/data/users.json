@@ -1,0 +1,20 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"Bastin Jean-Luc",
+            "email":"jlucbastin@gmail.com",
+            "player_category":"",
+            "player_serie":"",
+            "serial_number":""
+        },
+        {
+            "id":2,
+            "name":"Bergeret Agnès",
+            "email":"agnes.bergeret@skynet.be",
+            "player_category":"Ruby",
+            "player_serie":"3B",
+            "serial_number":"60.0882.8"
+        }
+    ]
+}

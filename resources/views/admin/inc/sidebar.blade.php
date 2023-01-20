@@ -38,7 +38,7 @@
 
                 <li class="nav-header">List</li>
                 <li class="nav-item">
-                    <a href="{{route('admin.users.index')}}" class="nav-link">
+                    <a href="{{route('admin.users.index')}}" class="nav-link @if(request()->routeIs('admin.users.index')) active @endif">
                         <i class="nav-icon fas fa-user-alt"></i>
                         <p>
                             Users
@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('admin.permissions.index')}}" class="nav-link">
+                    <a href="{{route('admin.permissions.index')}}" class="nav-link @if(request()->routeIs('admin.permissions.index')) active @endif">
                         <i class="nav-icon fas fa-clipboard-list"></i>
                         <p>
                             Permissions
@@ -54,7 +54,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('admin.roles.index')}}" class="nav-link">
+                    <a href="{{route('admin.roles.index')}}" class="nav-link @if(request()->routeIs('admin.roles.index')) active @endif">
                         <i class="nav-icon fas fa-users-cog"></i>
                         <p>
                             Roles
@@ -62,13 +62,14 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/kanban.html" class="nav-link">
-                        <i class="nav-icon fas fa-columns"></i>
+                    <a href="{{route('admin.posts.index')}}" class="nav-link @if(request()->routeIs('admin.posts.index')) active @endif  ">
+                        <i class="nav-icon fas fa-envelope"></i>
                         <p>
-                            Kanban Board
+                            Posts
                         </p>
                     </a>
                 </li>
+
 
 
 

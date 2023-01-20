@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Connaissez-vous le Scrabble ?",
+            "description": "Un jeu de lettres populaire",
+            "rule": "Quelle famille ne dispose pas d’un jeu de Scrabble au fond d’un placard ou à la portée de la main ? De ce populaire jeu de lettres, vous connaissez probablement la formule classique dite «partie libre», celle qu’on joue en famille ou entre amis.  Le hasard y joue alors un rôle déterminant et ne permet pas toujours d’évaluer la force réelle des joueurs.",
+            "cover_img_one": "https://images.ladepeche.fr/api/v1/images/view/61e63f268fe56f70841858c2/large/image.jpg?v=1",
+            "cover_img_two": "https://www.fisf.net/images/stories/scrabble/destaque1_Nc1ab0b.jpg",
+            "cover_img_three": "https://m.media-amazon.com/images/I/71pzL6zeBcL._AC_SL1500_.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Le Scrabble Duplicate",
+            "description": "Connaissance , maîtrise",
+            "rule": "Le Scrabble Duplicate est une variante du jeu classique qui élimine le facteur chance et permet à un nombre illimité de joueurs de se mesurer entre eux au cours d’une même partie. Chaque joueur dispose de son jeu et des mêmes 7 lettres que les autres joueurs. À l’issue d’un temps déterminé, chacun d’eux note le mot qu’il joue et les points qu’il rapporte sur un bulletin-réponse. Seule la solution qui rapporte le plus de points - appelée le «top» - est retenue par l’arbitre.  Tous les joueurs placent sur leur grille ce même mot mais ne comptabilisent bien sûr que les points correspondant au mot qu’ils ont trouvé. À l’issue de la partie, les joueurs sont classés en fonction du nombre de points obtenus.  Le vainqueur étant celui ayant marqué le plus de points",
+            "cover_img_one": "https://upload.wikimedia.org/wikipedia/commons/f/fd/ScrabbleDuplicate.jpg",
+            "cover_img_two": "https://i0.wp.com/www.le-journal-catalan.com/wp-content/uploads/2021/04/CHPT-DEP-7-scaled.jpg?fit=1200%2C540&ssl=1",
+            "cover_img_three": "https://static.actu.fr/uploads/2019/03/championnat-normandi1.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Quel matériel pour jouer ?",
+            "description": "Les indispensables pour tout débutant",
+            "rule": "Chaque joueur doit disposer d’un jeu de Scrabble, composé d’une grille, des 102 lettres (face imprimée visible), de quoi écrire, de bulletins-réponse et d’une feuille de route lui permettant de prendre note du déroulement de la partie (généralement fournis par l'organisateur de l'évènement). La grille de jeu doit être référencée afin d’identifier rapidement la position d’un mot.  Elle est numérotée de 1 à 15, horizontalement de gauche à droite et de A à O, verticalement de haut en bas. Le dictionnaire de référence est l’Officiel Du Scrabble (ODS) publié aux éditions Larousse.  Tous les mots admis y sont répertoriés, les moins connus étant accompagnés d’une brève définition. Seuls les arbitres peuvent consulter l’ODS ou toutes autres documentations pendant la partie.",
+            "cover_img_one": "images/jeu-magnetique-maroquinerie.png",
+            "cover_img_two": "images/scrabble-duplicate-de-luxe.jpg",
+            "cover_img_three": "https://scrabbleur.fr/269-home_default/kit-pour-incliner.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Etapes du jeu",
+            "description": "Des règles importantes",
+            "rule": "L’arbitre place les 102 lettres d’un jeu dans un sac opaque et en tire 7 au hasard.  Il les annonce aux joueurs selon un code établi : Algérie A, Belgique B, etc. Le règlement stipule que le tirage doit comporter au moins 2 voyelles et 2 consonnes jusqu’au 15 e coup.  Au delà, le tirage doit comporter au moins 1 voyelle et 1 consonne.  Autrement, on rejette les 7 lettres tirées (incluant le reliquat du coup précédent) et on procède à un nouveau tirage. Le joueur dispose de trois minutes> pour trouver un mot, compter ses points et inscrire sa solution sur un bulletin-réponse. Le premier mot se place horizontalement et une lettre doit obligatoirement recouvrir la case étoilée centrale.  Tous les autres mots doivent se raccorder à un mot déjà placé sur la grille. Le calcul des points s’effectue selon les règles traditionnelles du jeu de Scrabble, en tenant compte de la valeur des lettres et des cases multiplicatrices.  On compte les points de tous les nouveaux mots formés.  Un Scrabble est un mot qui emploie les 7 lettres du tirage, il donne une prime de 50 points en plus des points comptés. Lorsque le temps est écoulé, chaque joueur lève son bulletin-réponse en l'air. Les ramasseurs collectent les bulletins-réponse et les donnent à l'arbitre qui les corrige et les donne à comptabiliser aux assesseurs. L’arbitre retient le mot qui rapporte le plus de points; en cas d’égalité de points entre des mots différents, il choisit celui qui favorise une plus grande ouverture du jeu.  Tous les joueurs placent le mot retenu sur leur grille, mais comptabilisent les points du mot qu’ils ont joué. L’arbitre tire ensuite le nombre de lettres nécessaires pour compléter la série de 7 lettres, les annonce aux joueurs et leur accorde à nouveau 3 minutes de réflexion.  La partie se poursuit de la même façon jusqu’à ce que toutes les lettres aient été placées sur la grille ou jusqu’à épuisement des voyelles ou des consonnes.",
+            "cover_img_one": "images/feuille_de_route.jpg",
+            "cover_img_two": "",
+            "cover_img_three": ""
+        },
+        {
+            "id": 5,
+            "title": "Pénalités",
+            "description": "En cas d'erreurs",
+            "rule": "Lorsqu'un joueur s'est trompé dans le calcul de ses points ou a joué un mot invalide, les assesseurs rédigent un bulletin-arbitrage sur lequel ils indiquent l'erreur du joueur. Ces bulletins sont distribués durant le ramassage des bulletins-réponse du coup suivant. Lorsqu’un joueur est le seul à trouver la solution maximale, il réalise un «solo» et peut recevoir une prime de 10 points.",
+            "cover_img_one": "images/avertissement.jpg",
+            "cover_img_two": "",
+            "cover_img_three": ""
+        },
+        {
+            "id": 6,
+            "title": "Comment remplir un bulletin-réponse ?",
+            "description": "Autre règle importante à suivre",
+            "rule": "Le joueur doit inscrire sur le bulletin-réponse :le mot formé dans le même sens qu’il désire le placer sur sa grille (horizontalement ou verticalement) le nombre de points obtenu;la position du mot joué ; pour cela il dispose de deux modes de référence : la référence alphanumérique et le raccord de 3 lettres.La référence alphanumérique consiste à identifier la case où est placée la première lettre du mot, en se référant aux repères de la grille.  Un mot placé horizontalement requiert une référence  «lettre-chiffre» Ex : H4 et une référence «chiffre-lettre» Ex : 8K , s’il est placé verticalement.",
+            "cover_img_one": "images/bulletin_horizontal.jpg",
+            "cover_img_two": "images/bulletin_vertical.jpg",
+            "cover_img_three": "images/bulletin_raccord.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Quels sont les mots admis au Scrabble Duplicate ?",
+            "description": "Référence aux dictionnaires et autres livres",
+            "rule": "Ne sont admis au Scrabble Duplicate que les mots repris dans l’Officiel du Scrabble (ODS), dernière édition parue.  Les flexions de ces mots (féminins, pluriels, formes de conjugaison) sont également admises pour autant que l’ODS les valide explicitement ou implicitement. Un joueur qui propose un mot non admis ou qui commet une faute dans l’orthographe du mot reçoit zéro point. Il existe également quelques manuels pouvant aider au jeu. L'un des plus complets est - Mes mots en poche - ",
+            "cover_img_one": "https://scrabbleur.fr/662-large_default/mes-mots-en-poche-edition-2020-ods-8.jpg",
+            "cover_img_two": "https://images-na.ssl-images-amazon.com/images/I/71inDIJVoYL.jpg",
+            "cover_img_three": "https://cdn.cultura.com/cdn-cgi/image/width=768/media/pim/TITELIVE/13_9782501141383_1_75.jpg"
+        }
+    ]
+}

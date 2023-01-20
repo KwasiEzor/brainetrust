@@ -1,0 +1,49 @@
+{
+    "player_categories": [
+        {
+            "id": 1,
+            "name": "Ruby",
+            "description": ""
+        },
+        {
+            "id": 2,
+            "name": "Diamant",
+            "description": ""
+        },
+        {
+            "id": 3,
+            "name": "Vermeil",
+            "description": ""
+        },
+        {
+            "id": 4,
+            "name": "Senior",
+            "description": ""
+        },
+        {
+            "id": 5,
+            "name": "Espoir",
+            "description": ""
+        },
+        {
+            "id": 6,
+            "name": "Cadet",
+            "description": ""
+        },
+        {
+            "id": 7,
+            "name": "Junior",
+            "description": ""
+        },
+        {
+            "id": 8,
+            "name": "Poussin",
+            "description": ""
+        },
+        {
+            "id": 9,
+            "name": "Toutes catégories",
+            "description": ""
+        }
+    ]
+}

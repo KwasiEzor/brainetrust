@@ -1,0 +1,132 @@
+{
+    "data":[
+        {
+            "id":1,
+            "title":"Braine Trust ?",
+            "description":"Historique du club",
+            "content":"Braine Trust est le nom du club de scrabble de Braine-l’Alleud. Génial hein ! C’est Jean Bosse que nous devons remercier d’avoir trouvé cette dénomination. En réalité, un « Brain Trust » est un petit groupe de gens expérimentés au service d’un patron, d’une société. Le Braine Trust est jumelé depuis 2013 avec le club normand des S'Crabes Ouistreham (Calvados). Les deux clubs se rendent visite mutuellement lors de leurs festivals respectifs et disputent tout au long de la saison un duplex en 5 parties.",
+            "cover_img":""
+
+        },
+        {
+            "id":2,
+            "title":"Rencontres amicales",
+            "description":"",
+            "content":"Amicale, c'est de cette manière que nous avons l'habitude d'appeler nos rencontres de tous les mercredis à 20h00 précises à la salle communale d'Ophain, rue des Combattants 1-3 à Braine-l'Alleud. Même s'il y a une rencontre interclubs, une « petite amicale » est organisée (gratuite).Il est prudent de consulter l’agenda sur le site du club (on commence parfois - c'est rare - à 19h30).",
+            "cover_img":""
+
+        },
+        {
+            "id":3,
+            "title":"Animation",
+            "description":"Cela concerne le déroulement d'une amicale",
+            "content":"Animation des parties amicales assurée principalement par Philippe Desclée qui aime beaucoup arbitrer. Celui-ci nous fait les commentaires utiles pendant la partie. Parfois, on joue de manière originale : partie d’initiation, soirée coaching, en paires chapeautées... ! On fête souvent et simplement les anniversaires avec un verre, une galette, une praline...",
+            "cover_img":""
+
+        },
+        {
+            "id":4,
+            "title":"Interclubs",
+            "description":"Duel ou match opposant deux clubs de Scrabble pour le compte d'une compétition de la Fédération",
+            "content":"En 2017-18, le Braine Trust a aligné 4 équipes dans les divers championnats interclubs. L'équipe fanion a remporté le titre de championne de Belgique à 5 reprises (1997, 2011, 2012, 2013 et 2018) et a été sacrée vice-championne d'Europe en 2012 et 2014. Gérer 4 équipes n'est possible qu'avec la parfaite orchestration de Christine Splingard, coordinatrice des IC, bien entourée par les capitaines André, Philippe et Anne.",
+            "cover_img":""
+
+        },
+        {
+            "id":5,
+            "title":"Numéro",
+            "description":"Référence du club auprès de la Fédé",
+            "content":"Numéro fédéral du Braine Trust est 50. Seul 1 joueur de l’équipe de 1980 est toujours là : Philippe Desclée.Le club compte une cinquantaine de membres de tous niveaux de jeu et c'est dans une très grande convivialité qu'ils disputent les mêmes parties.",
+            "cover_img":""
+
+        },
+        {
+            "id":6,
+            "title":"Evénements",
+            "description":"En termes d'activité du club",
+            "content":"Le Braine Trust organise en 2017-18 son - déjà - 7e Festival International avec, au programme, 11 parties de duplicate et 5 parties de classique en moins de 48 heures ! Il y aura aussi la 7e saison des Mercredis du Bra & Qua (4 séances) ainsi qu'une journée le 30 mai 2018, avec, au programme, 3 TH en une journée !",
+            "cover_img":""
+
+        },
+        {
+            "id":7,
+            "title":"Trésorier",
+            "description":"",
+            "content":"Trésorier ! Avec tous les banquiers qu’il y a dans notre club, les affaires ont un rendement terrible Rigolant. Jean-Claude Bosse, Jeanine Gilbert, puis de nouveau Jean-Claude, et enfin Thierry Mues ont occupé ce poste et la caisse du club se porte très bien. Le trésorier est affectueusement appelé Trésor. Pour être dans ses grâces, sachez qu'il déteste les pièces brunes et préfère de loin celles de 1 et 2 euros !",
+            "cover_img":""
+
+        },
+        {
+            "id":8,
+            "title":"Remercions",
+            "description":"Un clin d'oeil particulier",
+            "content":"Remercions les différents présidents du club qui, dans l’ordre, ont été Jean-Claude Bosse et Stéphane Lenoir (présidents fondateurs), Didier Vanhoof (pendant 14 ans), Jeanine Gilbert, Eric Delvaulx, Eric Vermeulen, Jean-Claude Bosse (II) et, depuis 2008, Paul Fraiteur. Depuis 2008 également, nous avons un vice-président : Philippe Ier (Desclée), Philippe II (Laurent) et Chantal Vanhese ont précédé la nouvelle Vice, Paulette Dehaye",
+            "cover_img":""
+
+        },
+        {
+            "id":9,
+            "title":"Un Secrétariat",
+            "description":"",
+            "content":"Un secrétaire, il doit en avoir dans chaque club. C’est, en principe, lui qui fournit le plus de travaux administratifs. Voici les différents scribes que notre club a comptés : Jean-Claude Bosse, Philippe Desclée, Stéphane Lenoir, Eric Delvaulx, Omer Vandamme, Gaëtan Masquelier, Jeanine Gilbert, de nouveau Jean-Claude, Paul Fraiteur, Romain Santi, Alain Gottcheiner et la dernière en date, Anne Naverne",
+            "cover_img":""
+
+        },
+        {
+            "id":10,
+            "title":"Scrabble",
+            "description":"Ce qui nous passionne",
+            "content":"Scrabble duplicate. C'est la formule de jeu que nous pratiquons au club : chaque joueur a son propre jeu (le club dispose d'une réserve...) et les joueurs disputent la même partie. Ainsi, il n'y a pas de jaloux ! Chacun disposera à chaque fois des deux lettres blanches, des lettres chères... Les lettres sont tirées par un arbitre et chacun place, quels que soient les points qu'il a mérités, la solution maximale (baptisée top) annoncée par l'arbitre",
+            "cover_img":""
+
+        },
+        {
+            "id":11,
+            "title":"Tout est permis ?",
+            "description":"",
+            "content":"Tout est permis au Braine Trust. Ou presque. Certains, en dehors des compétitions bien sûr, préfèrent jouer en paire (c'est là le cas de plusieurs couples...), d'autres sont rassurés en consultant un dictionnaire ou un ouvrage... L'important est que le joueur se sente bien au club et qu'il cherche à progresser par rapport à... lui-même ! Bienvenue à tous les néophytes ! Un seul conseil : OSEZ !",
+            "cover_img":""
+
+        },
+        {
+            "id":12,
+            "title":"Affiliation",
+            "description":"",
+            "content":"Le Braine Trust est affilié à la F.B.S. (Fédération belge de scrabble) sous le numéro 50 depuis 1980.Les amicales ainsi que les interclubs ont lieu le mercredi soir à 20h00",
+            "cover_img":""
+
+        },
+        {
+            "id":13,
+            "title":"Droit de table",
+            "description":"",
+            "content":"Un droit de table est une participation qui est demandée à tout joueur à partir de la deuxième présence (2 €, une boisson comprise). Toute boisson supplémentaire coûte 1 €",
+            "cover_img":""
+
+        },
+        {
+            "id":14,
+            "title":"Cotisation annuelle",
+            "description":"",
+            "content":"La cotisation annuelle, non obligatoire, est très démocratique également (60 € par an) et offre pas mal d'avantages...Compte bancaire du BRA : BE69 0011 1225 8378 (IBAN) et GEBABEBB (BIC)",
+            "cover_img":""
+
+        },
+        {
+            "id":15,
+            "title":"Nous contacter",
+            "description":"",
+            "content":"Pour toutes informations, vous pouvez nous contacter via email à l'adresse (brainetrust@gmail.com) ou par téléphone ( Christine Splingard : 0473.43.39.34 , Philippe Laurent : 0498.05.19.76 )",
+            "cover_img":""
+
+        },
+        {
+            "id":16,
+            "title":"Comment arriver au club ?",
+            "description":"Plan d'accès au lieu d'entrainement",
+            "content":"En venant du R.0 (depuis Waterloo), prenez la sortie 23. Tournez à droite et faites environ 500 mètres et vous êtes arrivés. En venant du R.0 (depuis Ittre), prenez la sortie 23. Tournez à gauche et faites environ 500 mètres et vous êtes arrivés. Il est également possible de prendre le bus 65 ou 66 au départ de la gare de Braine-l'Alleud. La salle est située en face de la boulangerie LA GRANGE ",
+            "cover_img":""
+
+        }
+    ]
+}

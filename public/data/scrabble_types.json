@@ -1,0 +1,40 @@
+{
+    "data":[
+        {
+            "id":1,
+            "sc_type":"Duplicate",
+            "name":"Blitz",
+            "description":"le temps est réduit à 1 minute par coup (40 secondes de recherche et 20 secondes pour remplir le bulletin-réponse) "
+        },
+        {
+            "id":2,
+            "sc_type":"Duplicate",
+            "name":"Paires",
+            "description":"Deux joueurs jouent et mettent leurs savoirs en commun. Le temps est réduit à 2 minutes par coup (100 secondes de recherche et 20 pour remplir un bulletin-réponse commun)"
+        },
+        {
+            "id":3,
+            "sc_type":"Duplicate",
+            "name":"Parties Joker",
+            "description":"lors de chaque coup, il y a un joker permanent. Lorsque l'on place le mot retenu sur la grille, on remplace la lettre joker par une vraie. Lorsqu'il n'y a plus de vraies lettres, on utilise le joker. Le temps est réduit à 2 minutes par coup (100 secondes de recherche et 20 pour remplir un bulletin-réponse)"
+        },
+        {
+            "id":4,
+            "sc_type":"Duplicate",
+            "name":"Parties 7 sur 8",
+            "description":"chaque tirage est composé de 8 lettres mais l'on ne peut en jouer que 7 maximum. Le temps est réduit à 2 minutes par coup (100 secondes de recherche et 20 pour remplir un bulletin-réponse)"
+        },
+        {
+            "id":5,
+            "sc_type":"Duplicate",
+            "name":"Parties 7 et 8",
+            "description":"chaque tirage est composé de 8 lettres. Si l'on scrabble normalement (avec 7 lettres), on a un bonus de 50 points mais si l'on scrabble avec 8 lettres, le bonus est de 75 points. Le temps est réduit à 2 minutes par coup (100 secondes de recherche et 20 pour remplir un bulletin-réponse)"
+        },
+        {
+            "id":6,
+            "sc_type":"Duplicate",
+            "name":"Parties Toping",
+            "description":"le but de ce mode de jeu est de trouver le plus vite possible tous les mots de la partie. Ce mode se joue sans chrono et le droit à l'erreur n'est pas permis. Ce type de jeu n'est pas officiel pour l'instant mais qui sait... peut-être qu'à l'avenir il le sera."
+        }
+    ]
+}

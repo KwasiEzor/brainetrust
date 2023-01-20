@@ -1,0 +1,741 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "results": [
+                {
+                    "id": 1,
+                    "ranking_position": 1,
+                    "player_top": 963,
+                    "game_top": 963,
+                    "percentage": 100.00,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 2,
+                    "ranking_position": 2,
+                    "player_top": 963,
+                    "game_top": 963,
+                    "percentage": 100.00,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 3,
+                    "ranking_position": 3,
+                    "player_top": 934,
+                    "game_top": 963,
+                    "percentage": 96.93,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 4,
+                    "ranking_position": 4,
+                    "player_top": 904,
+                    "game_top": 963,
+                    "percentage": 93.87,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 5,
+                    "ranking_position": 5,
+                    "player_top": 886,
+                    "game_top": 963,
+                    "percentage": 92.00,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 6,
+                    "ranking_position": 6,
+                    "player_top": 863,
+                    "game_top": 963,
+                    "percentage": 89.61,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 7,
+                    "ranking_position": 7,
+                    "player_top": 854,
+                    "game_top": 963,
+                    "percentage": 88.68,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 8,
+                    "ranking_position": 8,
+                    "player_top": 845,
+                    "game_top": 963,
+                    "percentage": 87.74,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 9,
+                    "ranking_position": 9,
+                    "player_top": "814",
+                    "game_top": 963,
+                    "percentage": 84.52,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 10,
+                    "ranking_position": 10,
+                    "player_top": 814,
+                    "game_top": 963,
+                    "percentage": 84.52,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 11,
+                    "ranking_position": 11,
+                    "player_top": 760,
+                    "game_top": 963,
+                    "percentage": 787.1,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 12,
+                    "ranking_position": 12,
+                    "player_top": 758,
+                    "game_top": 963,
+                    "percentage": 78.60,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 13,
+                    "ranking_position": 13,
+                    "player_top": 757,
+                    "game_top": 963,
+                    "percentage": 78.71,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 14,
+                    "ranking_position": 14,
+                    "player_top": 738,
+                    "game_top": 963,
+                    "percentage": 76.63,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 15,
+                    "ranking_position": 15,
+                    "player_top": 699,
+                    "game_top": 963,
+                    "percentage": 72.58,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 16,
+                    "ranking_position": 16,
+                    "player_top": 562,
+                    "game_top": 963,
+                    "percentage": 58.35,
+                    "sc_game_id": 1,
+                    "user_id": null
+                },
+                {
+                    "id": 17,
+                    "ranking_position": 17,
+                    "player_top": 503,
+                    "game_top": 963,
+                    "percentage": 52.23,
+                    "sc_game_id": 1,
+                    "user_id": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "results": [
+                {
+                    "id": 1,
+                    "ranking_position": 1,
+                    "player_top": 889,
+                    "game_top": 1045,
+                    "percentage": 85.07,
+                    "sc_game_id": 2,
+                    "user_id": null
+                },
+                {
+                    "id": 2,
+                    "ranking_position": 2,
+                    "player_top": 828,
+                    "game_top": 1045,
+                    "percentage": 79.23,
+                    "sc_game_id": 2,
+                    "user_id": null
+                },
+                {
+                    "id": 3,
+                    "ranking_position": 3,
+                    "player_top": 772,
+                    "game_top": 1045,
+                    "percentage": 96.93,
+                    "sc_game_id": 2,
+                    "user_id": null
+                },
+                {
+                    "id": 4,
+                    "ranking_position": 4,
+                    "player_top": 767,
+                    "game_top": 1045,
+                    "percentage": 73.40,
+                    "sc_game_id": 2,
+                    "user_id": null
+                },
+                {
+                    "id": 5,
+                    "ranking_position": 5,
+                    "player_top": 690,
+                    "game_top": 1045,
+                    "percentage": 66.02,
+                    "sc_game_id": 2,
+                    "user_id": null
+                },
+                {
+                    "id": 6,
+                    "ranking_position": 6,
+                    "player_top": 669,
+                    "game_top": 1045,
+                    "percentage": 64.01,
+                    "sc_game_id": 2,
+                    "user_id": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "results": [
+                {
+                    "id": 1,
+                    "ranking_position": 1,
+                    "player_top": 885,
+                    "game_top": 953,
+                    "percentage": 93.28,
+                    "sc_game_id": 3,
+                    "user_id": null
+                },
+                {
+                    "id": 2,
+                    "ranking_position": 2,
+                    "player_top": 827,
+                    "game_top": 953,
+                    "percentage": 86.77,
+                    "sc_game_id": 3,
+                    "user_id": null
+                },
+                {
+                    "id": 3,
+                    "ranking_position": 3,
+                    "player_top": 813,
+                    "game_top": 953,
+                    "percentage": 85.30,
+                    "sc_game_id": 3,
+                    "user_id": null
+                },
+                {
+                    "id": 4,
+                    "ranking_position": 4,
+                    "player_top": 771,
+                    "game_top": 953,
+                    "percentage": 80.90,
+                    "sc_game_id": 3,
+                    "user_id": null
+                },
+                {
+                    "id": 5,
+                    "ranking_position": 5,
+                    "player_top": 657,
+                    "game_top": 953,
+                    "percentage": 68.94,
+                    "sc_game_id": 3,
+                    "user_id": null
+                },
+                {
+                    "id": 6,
+                    "ranking_position": 6,
+                    "player_top": 640,
+                    "game_top": 953,
+                    "percentage": 67.15,
+                    "sc_game_id": 3,
+                    "user_id": null
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "results": [
+                {
+                    "id": 1,
+                    "ranking_position": 1,
+                    "player_top": 794,
+                    "game_top": 799,
+                    "percentage": 99.37,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 2,
+                    "ranking_position": 2,
+                    "player_top": 754,
+                    "game_top": 799,
+                    "percentage": 94.36,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 3,
+                    "ranking_position": 3,
+                    "player_top": 718,
+                    "game_top": 799,
+                    "percentage": 89.86,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 4,
+                    "ranking_position": 4,
+                    "player_top": 705,
+                    "game_top": 799,
+                    "percentage": 88.23,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 5,
+                    "ranking_position": 5,
+                    "player_top": 675,
+                    "game_top": 799,
+                    "percentage": 84.48,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 6,
+                    "ranking_position": 6,
+                    "player_top": 673,
+                    "game_top": 799,
+                    "percentage": 84.23,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 7,
+                    "ranking_position": 7,
+                    "player_top": 664,
+                    "game_top": 799,
+                    "percentage": 83.10,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 8,
+                    "ranking_position": 8,
+                    "player_top": 648,
+                    "game_top": 799,
+                    "percentage": 81.10,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 9,
+                    "ranking_position": 9,
+                    "player_top": 604,
+                    "game_top": 799,
+                    "percentage": 75.59,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 10,
+                    "ranking_position": 10,
+                    "player_top": 596,
+                    "game_top": 799,
+                    "percentage": 74.59,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 11,
+                    "ranking_position": 11,
+                    "player_top": 498,
+                    "game_top": 799,
+                    "percentage": 62.32,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 12,
+                    "ranking_position": 12,
+                    "player_top": 494,
+                    "game_top": 799,
+                    "percentage": 61.82,
+                    "sc_game_id": 4,
+                    "user_id": null
+                },
+                {
+                    "id": 13,
+                    "ranking_position": 13,
+                    "player_top": 392,
+                    "game_top": 799,
+                    "percentage": 49.06,
+                    "sc_game_id": 4,
+                    "user_id": null
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "results": [
+                {
+                    "id": 1,
+                    "ranking_position": 1,
+                    "player_top": 1055,
+                    "game_top": 1055,
+                    "percentage": 100.00,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 2,
+                    "ranking_position": 2,
+                    "player_top": 941,
+                    "game_top": 1055,
+                    "percentage": 89.70,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 3,
+                    "ranking_position": 3,
+                    "player_top": 904,
+                    "game_top": 1055,
+                    "percentage": 86.17,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 4,
+                    "ranking_position": 4,
+                    "player_top": 867,
+                    "game_top": 1055,
+                    "percentage": 82.65,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 5,
+                    "ranking_position": 5,
+                    "player_top": 810,
+                    "game_top": 1055,
+                    "percentage": 77.21,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 6,
+                    "ranking_position": 6,
+                    "player_top": 800,
+                    "game_top": 1055,
+                    "percentage": 76.26,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 7,
+                    "ranking_position": 7,
+                    "player_top": 769,
+                    "game_top": 1055,
+                    "percentage": 73.30,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 8,
+                    "ranking_position": 8,
+                    "player_top": 743,
+                    "game_top": 1055,
+                    "percentage": 70.82,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 9,
+                    "ranking_position": 9,
+                    "player_top": 719,
+                    "game_top": 1055,
+                    "percentage": 68.54,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 10,
+                    "ranking_position": 10,
+                    "player_top": 710,
+                    "game_top": 1055,
+                    "percentage": 67.68,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 11,
+                    "ranking_position": 11,
+                    "player_top": 657,
+                    "game_top": 1055,
+                    "percentage": 62.63,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 12,
+                    "ranking_position": 12,
+                    "player_top": 621,
+                    "game_top": 1055,
+                    "percentage": 59.48,
+                    "sc_game_id": 5,
+                    "user_id": null
+                },
+                {
+                    "id": 13,
+                    "ranking_position": 13,
+                    "player_top": 373,
+                    "game_top": 1055,
+                    "percentage": 35.35,
+                    "sc_game_id": 5,
+                    "user_id": null
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "results": [
+                {
+                    "id": 1,
+                    "ranking_position": 1,
+                    "player_top": 1046,
+                    "game_top": 1046,
+                    "percentage": 100.00,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 2,
+                    "ranking_position": 2,
+                    "player_top": 1041,
+                    "game_top": 1046,
+                    "percentage": 99.52,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 3,
+                    "ranking_position": 3,
+                    "player_top": 1022,
+                    "game_top": 1046,
+                    "percentage": 97.70,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 4,
+                    "ranking_position": 4,
+                    "player_top": 948,
+                    "game_top": 1046,
+                    "percentage": 90.63,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 5,
+                    "ranking_position": 5,
+                    "player_top": 937,
+                    "game_top": 1046,
+                    "percentage": 89.57,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 6,
+                    "ranking_position": 6,
+                    "player_top": 921,
+                    "game_top": 1046,
+                    "percentage": 88.04,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 7,
+                    "ranking_position": 7,
+                    "player_top": 899,
+                    "game_top": 1046,
+                    "percentage": 85.94,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 8,
+                    "ranking_position": 8,
+                    "player_top": 872,
+                    "game_top": 1046,
+                    "percentage": 83.36,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 9,
+                    "ranking_position": 9,
+                    "player_top": 863,
+                    "game_top": 1046,
+                    "percentage": 82.50,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 10,
+                    "ranking_position": 10,
+                    "player_top": 862,
+                    "game_top": 1046,
+                    "percentage": 82.40,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 11,
+                    "ranking_position": 11,
+                    "player_top": 808,
+                    "game_top": 1046,
+                    "percentage": 77.24,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 12,
+                    "ranking_position": 12,
+                    "player_top": 804,
+                    "game_top": 1046,
+                    "percentage": 76.86,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 13,
+                    "ranking_position": 13,
+                    "player_top": 794,
+                    "game_top": 1046,
+                    "percentage": 75.90,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 14,
+                    "ranking_position": 14,
+                    "player_top": 669,
+                    "game_top": 1046,
+                    "percentage": 63.95,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 15,
+                    "ranking_position": 15,
+                    "player_top": 668,
+                    "game_top": 1046,
+                    "percentage": 63.86,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 16,
+                    "ranking_position": 16,
+                    "player_top": 664,
+                    "game_top": 1046,
+                    "percentage": 63.47,
+                    "sc_game_id": 6,
+                    "user_id": null
+                },
+                {
+                    "id": 17,
+                    "ranking_position": 17,
+                    "player_top": 508,
+                    "game_top": 1046,
+                    "percentage": 48.56,
+                    "sc_game_id": 6,
+                    "user_id": null
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "results": [
+                {
+                    "id": 1,
+                    "ranking_position": 1,
+                    "player_top": 1038,
+                    "game_top": 1109,
+                    "percentage": 93.59,
+                    "sc_game_id": 7,
+                    "user_id": null
+                },
+                {
+                    "id": 2,
+                    "ranking_position": 2,
+                    "player_top": 1004,
+                    "game_top": 1109,
+                    "percentage": 90.53,
+                    "sc_game_id": 7,
+                    "user_id": null
+                },
+                {
+                    "id": 3,
+                    "ranking_position": 3,
+                    "player_top": 944,
+                    "game_top": 1109,
+                    "percentage": 85.12,
+                    "sc_game_id": 7,
+                    "user_id": null
+                },
+                {
+                    "id": 4,
+                    "ranking_position": 4,
+                    "player_top": 944,
+                    "game_top": 1109,
+                    "percentage": 85.12,
+                    "sc_game_id": 7,
+                    "user_id": null
+                },
+                {
+                    "id": 5,
+                    "ranking_position": 5,
+                    "player_top": 942,
+                    "game_top": 1109,
+                    "percentage": 84.94,
+                    "sc_game_id": 7,
+                    "user_id": null
+                },
+                {
+                    "id": 6,
+                    "ranking_position": 6,
+                    "player_top": 728,
+                    "game_top": 1109,
+                    "percentage": 65.64,
+                    "sc_game_id": 7,
+                    "user_id": null
+                }
+            ]
+        }
+    ]
+}

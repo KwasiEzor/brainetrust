@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('posts',\App\Http\Controllers\PostController::class);
+
 Route::get('/admin',[\App\Http\Controllers\Admin\AdminController::class,'login'])->name('admin.login');
 Route::post('/admin',[\App\Http\Controllers\Admin\AdminController::class,'signIn'])->name('admin.auth');
 Route::group(['middleware' => ['role:super-admin|admin']], function () {
@@ -48,6 +51,15 @@ Route::group(['middleware' => ['role:super-admin|admin']], function () {
         Route::get('/admin/roles/{role}','edit')->name('admin.roles.edit');
         Route::put('/admin/roles/{role}','update')->name('admin.roles.update');
         Route::delete('/admin/roles/{role}','destroy')->name('admin.roles.delete');
+    });
+
+    Route::controller(\App\Http\Controllers\Admin\PostController::class)->group(function(){
+        Route::get('/admin/posts','index')->name('admin.posts.index');
+        Route::get('/admin/post','create')->name('admin.posts.create');
+        Route::post('/admin/posts','store')->name('admin.posts.store');
+        Route::get('/admin/posts/{post}','edit')->name('admin.posts.edit');
+        Route::put('/admin/posts/{post}','update')->name('admin.posts.update');
+        Route::delete('/admin/posts/{role}','destroy')->name('admin.posts.delete');
     });
 });
 Auth::routes();

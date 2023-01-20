@@ -1,0 +1,1263 @@
+{
+   "data": [
+      {
+         "id": 1,
+         "game": [
+            {
+               "id": 1,
+               "letters_selected": "LSOEAFK",
+               "place": "H4",
+               "solution": "KALES",
+               "top_points": 48,
+               "comments": "ou KOLAS - FAKES = 42 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 2,
+               "letters_selected": "FO+RNAAG",
+               "place": "8A",
+               "solution": "AGRAFONS",
+               "top_points": 89,
+               "comments": "FLAGORNA en 6G = 68 pts - ANORAK en 4C = 30 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 3,
+               "letters_selected": "ITCVUSE",
+               "place": "5G",
+               "solution": "VACUITES",
+               "top_points": 76,
+               "comments": "CULTIVES en 6F = 71 pts - CUVATES en 5E = 48pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 4,
+               "letters_selected": "PPEEDJX",
+               "place": "J3",
+               "solution": "JEUX",
+               "top_points": 40,
+               "comments": "",
+               "sc_game_id": 1
+            },
+            {
+               "id": 5,
+               "letters_selected": "DEPP+IEQ",
+               "place": "L1",
+               "solution": "PIPETE",
+               "top_points": 26,
+               "comments": "PIPETER ou PIPETTER",
+               "sc_game_id": 1
+            },
+            {
+               "id": 6,
+               "letters_selected": "DQ+EAONF",
+               "place": "3J",
+               "solution": "JAPON",
+               "top_points": 28,
+               "comments": "ou FAQS en N2 = 28 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 7,
+               "letters_selected": "DEFQ+UBT",
+               "place": "D7",
+               "solution": "BAQUET",
+               "top_points": 30,
+               "comments": "BUFFET en E5 ou E6 = 28 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 8,
+               "letters_selected": "DUAISVF",
+               "place": "13C",
+               "solution": "FAVUS",
+               "top_points": 40,
+               "comments": "FUSA - VISA - VISU en O1 = 39 pts - VIFS en 13A = 36 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 9,
+               "letters_selected": "DI+EUNRH",
+               "place": "6F",
+               "solution": "HELIX",
+               "top_points": 34,
+               "comments": "PEUH en 1L = 27 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 10,
+               "letters_selected": "CIATEOG",
+               "place": "14A",
+               "solution": "COITA",
+               "top_points": 41,
+               "comments": "ou COITE - AGITE en 14A = 39 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 11,
+               "letters_selected": "EG+ADTSE",
+               "place": "4D",
+               "solution": "STEAK",
+               "top_points": 34,
+               "comments": "Solo de CHRISTOPHE - ADEPTES en 1I = 30 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 12,
+               "letters_selected": "ISWEA?H",
+               "place": "15E",
+               "solution": "SWAHE(L)I",
+               "top_points": 110,
+               "comments": "WECH en A12 = 84 pts - HAWAIENS en A5 = 70 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 13,
+               "letters_selected": "LMD?EOG",
+               "place": "11A",
+               "solution": "MODELAGE",
+               "top_points": 70,
+               "comments": "DOGME en L11 = 38 pts - DELOGE en L10 = 36 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 14,
+               "letters_selected": "SIDLEUR",
+               "place": "L9",
+               "solution": "RIDULES",
+               "top_points": 88,
+               "comments": "DILUERAS en A2 = 60 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 15,
+               "letters_selected": "TIAMDNR",
+               "place": "15A",
+               "solution": "ART",
+               "top_points": 29,
+               "comments": "ou IRA",
+               "sc_game_id": 1
+            },
+            {
+               "id": 16,
+               "letters_selected": "DIMN+ZEI",
+               "place": "2K",
+               "solution": "DINEZ",
+               "top_points": 48,
+               "comments": "ou MINEZ",
+               "sc_game_id": 1
+            },
+            {
+               "id": 17,
+               "letters_selected": "IIM+UYRR",
+               "place": "F2",
+               "solution": "YUE",
+               "top_points": 32,
+               "comments": "MIREUR ou RIMEUR en 14 I  = 26 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 18,
+               "letters_selected": "IIMRR+NN",
+               "place": "9D",
+               "solution": "QIN",
+               "top_points": 48,
+               "comments": "MINER - MIRER - RIMER en 14I = 16 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 19,
+               "letters_selected": "IMNRR+OT",
+               "place": "14H",
+               "solution": "OMIRENT",
+               "top_points": 33,
+               "comments": "MIRENT - RIMENT en 14I = 26 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 20,
+               "letters_selected": "R+NEULBR",
+               "place": "3C",
+               "solution": "LUEUR",
+               "top_points": 24,
+               "comments": "BUE - BUN en K10 = 22 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 21,
+               "letters_selected": "BNR+LEOM",
+               "place": "7K",
+               "solution": "BEMOL",
+               "top_points": 21,
+               "comments": "Solo de LOUIS - BROME ou ORBE en 7K = 20 pts",
+               "sc_game_id": 1
+            },
+            {
+               "id": 22,
+               "letters_selected": "NR+E",
+               "place": "12B",
+               "solution": "NET",
+               "top_points": 14,
+               "comments": "ou NE - RE - en 8N ",
+               "sc_game_id": 1
+            }
+         ]
+      },
+      {
+         "id": 2,
+         "game": [
+            {
+               "id": 1,
+               "letters_selected": "DDSSAAE",
+               "place": "H4",
+               "solution": "DADAS",
+               "top_points": 18,
+               "comments": "",
+               "sc_game_id": 2
+            },
+            {
+               "id": 2,
+               "letters_selected": "ES+PUOOE",
+               "place": "4A",
+               "solution": "DOPEUSE",
+               "top_points": 20,
+               "comments": "Solo ORDI",
+               "sc_game_id": 2
+            },
+            {
+               "id": 3,
+               "letters_selected": "O+SIDNEC",
+               "place": "N1",
+               "solution": "CODEINES",
+               "top_points": 76,
+               "comments": "CEDIONS en G7 = 75pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 4,
+               "letters_selected": "?SZRAUM",
+               "place": "C6",
+               "solution": "MUSARD(E)Z",
+               "top_points": 90,
+               "comments": "S.ORD - MAZURKAS en 5B = 86pts -MAUZACS en ",
+               "sc_game_id": 2
+            },
+            {
+               "id": 5,
+               "letters_selected": "INFAVLE",
+               "place": "8A",
+               "solution": "FLAVINES",
+               "top_points": 104,
+               "comments": "Solo ORDI - ou FLAVIENS",
+               "sc_game_id": 2
+            },
+            {
+               "id": 6,
+               "letters_selected": "IYEJHHO",
+               "place": "1K",
+               "solution": "JOICE",
+               "top_points": 45,
+               "comments": "JOIE en M7 = 39pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 7,
+               "letters_selected": "OQTRAFH",
+               "place": "8L",
+               "solution": "HOST",
+               "top_points": 33,
+               "comments": "S.CHRISTINE - HARO ou HART en O7 = 32pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 8,
+               "letters_selected": "AFQR+LLU",
+               "place": "E3",
+               "solution": "FAQS",
+               "top_points": 28,
+               "comments": "",
+               "sc_game_id": 2
+            },
+            {
+               "id": 9,
+               "letters_selected": "LLRU+ITG",
+               "place": "K1",
+               "solution": "JUGER",
+               "top_points": 26,
+               "comments": "JUTER en K1 = 24pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 10,
+               "letters_selected": "ILLT+EWN",
+               "place": "F1",
+               "solution": "TWIN",
+               "top_points": 40,
+               "comments": "en D1 on perds 3 pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 11,
+               "letters_selected": "ESICLE?",
+               "place": "1A",
+               "solution": "LE(U)CITES",
+               "top_points": 158,
+               "comments": "Solo d'AGNES ",
+               "sc_game_id": 2
+            },
+            {
+               "id": 12,
+               "letters_selected": "LRSIAAA",
+               "place": "A6",
+               "solution": "RAFALAIS",
+               "top_points": 62,
+               "comments": "",
+               "sc_game_id": 2
+            },
+            {
+               "id": 13,
+               "letters_selected": "LBREUUM",
+               "place": "M7",
+               "solution": "BOULEUR",
+               "top_points": 35,
+               "comments": "MORBLEU en M7 = 31pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 14,
+               "letters_selected": "L+NEOTIN",
+               "place": "11F",
+               "solution": "LEONTINE",
+               "top_points": 66,
+               "comments": "S. AGNES - SCRABBLE UNIQUE",
+               "sc_game_id": 2
+            },
+            {
+               "id": 15,
+               "letters_selected": "KTERYUU",
+               "place": "4A",
+               "solution": "RYOKAN",
+               "top_points": 50,
+               "comments": "Solo ORDI",
+               "sc_game_id": 2
+            },
+            {
+               "id": 16,
+               "letters_selected": "ETU+TPNG",
+               "place": "H10",
+               "solution": "TOPENT",
+               "top_points": 33,
+               "comments": "POUGNE en H10 = 30pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 17,
+               "letters_selected": "GU+MEAXV",
+               "place": "G1",
+               "solution": "EUX",
+               "top_points": 58,
+               "comments": "EX en 2A = 46pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 18,
+               "letters_selected": "EAGVM+RB",
+               "place": "B1",
+               "solution": "EGAYE",
+               "top_points": 30,
+               "comments": "",
+               "sc_game_id": 2
+            },
+            {
+               "id": 19,
+               "letters_selected": "BMRV+TLI",
+               "place": "13C",
+               "solution": "TIMBRE",
+               "top_points": 20,
+               "comments": "MIRENT - RIMENT en 14I = 26 pts",
+               "sc_game_id": 2
+            },
+            {
+               "id": 20,
+               "letters_selected": "VL+HEEEE",
+               "place": "14B",
+               "solution": "HELEE",
+               "top_points": 33,
+               "comments": "",
+               "sc_game_id": 2
+            },
+            {
+               "id": 21,
+               "letters_selected": "VE",
+               "place": "15A",
+               "solution": "VE",
+               "top_points": 20,
+               "comments": "",
+               "sc_game_id": 2
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "game": [
+            {
+               "id": 1,
+               "letters_selected": "UQSAALL",
+               "place": "H3",
+               "solution": "LAQUAS",
+               "top_points": 28,
+               "comments": "Pensez à C-P-LAQUAS",
+               "sc_game_id": 3
+            },
+            {
+               "id": 2,
+               "letters_selected": "L+AAEOPT",
+               "place": "2F",
+               "solution": "ALPAT",
+               "top_points": 20,
+               "comments": "ou LAPAT - LEPTA",
+               "sc_game_id": 3
+            },
+            {
+               "id": 3,
+               "letters_selected": "AISWY?D",
+               "place": "I7",
+               "solution": "YAW(L)S",
+               "top_points": 65,
+               "comments": "AISY EN I4 = 57 pts",
+               "sc_game_id": 3
+            },
+            {
+               "id": 4,
+               "letters_selected": "DI+THMUA",
+               "place": "1A",
+               "solution": "HUMAIT",
+               "top_points": 35,
+               "comments": "MAUDIT en 1A = 32 pts ",
+               "sc_game_id": 3
+            },
+            {
+               "id": 5,
+               "letters_selected": "D+SETOOX",
+               "place": "3B",
+               "solution": "SEXTO",
+               "top_points": 31,
+               "comments": "Solo ORDI - en 3C = 29pts",
+               "sc_game_id": 3
+            },
+            {
+               "id": 6,
+               "letters_selected": "DO+PREEE",
+               "place": "11C",
+               "solution": "REDEPOSE",
+               "top_points": 72,
+               "comments": "DEPLOREE en 10F = 66 pts",
+               "sc_game_id": 3
+            },
+            {
+               "id": 7,
+               "letters_selected": "NLB?EEE",
+               "place": "K5",
+               "solution": "N(D)EBELE",
+               "top_points": 106,
+               "comments": "Solo ORDI",
+               "sc_game_id": 3
+            },
+            {
+               "id": 8,
+               "letters_selected": "EOMRTTU",
+               "place": "D6",
+               "solution": "EMOTTEUR",
+               "top_points": 70,
+               "comments": "TROQUENT en 5E = 30pts",
+               "sc_game_id": 3
+            },
+            {
+               "id": 9,
+               "letters_selected": "IVLDGEC",
+               "place": "H11",
+               "solution": "OVIDE",
+               "top_points": 39,
+               "comments": "S.PHILIPPE - OGIVE en H11 = 33ptss",
+               "sc_game_id": 3
+            },
+            {
+               "id": 10,
+               "letters_selected": "CGL+AHOR",
+               "place": "15A",
+               "solution": "CHLORAGE",
+               "top_points": 95,
+               "comments": "S.AGNES - GALOCHER en F5 = 74 pts",
+               "sc_game_id": 3
+            },
+            {
+               "id": 11,
+               "letters_selected": "ONIKEUT",
+               "place": "8K",
+               "solution": "BOKIT",
+               "top_points": 51,
+               "comments": "S.PHILIPPE -KOINE en L1 = 50 pts ",
+               "sc_game_id": 3
+            },
+            {
+               "id": 12,
+               "letters_selected": "ENU+CNOU",
+               "place": "L1",
+               "solution": "CONNUE",
+               "top_points": 25,
+               "comments": "",
+               "sc_game_id": 3
+            },
+            {
+               "id": 13,
+               "letters_selected": "FDNEIEU",
+               "place": "4A",
+               "solution": "DENIE",
+               "top_points": 24,
+               "comments": "",
+               "sc_game_id": 3
+            },
+            {
+               "id": 14,
+               "letters_selected": "FU+AINSS",
+               "place": "N8",
+               "solution": "INFUSAIS",
+               "top_points": 88,
+               "comments": "SURFINIAS EN 13B = 78 pts - DOUBLE APPUI R-----I",
+               "sc_game_id": 3
+            },
+            {
+               "id": 15,
+               "letters_selected": "ARRUJBS",
+               "place": "15L",
+               "solution": "JASS",
+               "top_points": 57,
+               "comments": "YASS est bon aussi",
+               "sc_game_id": 3
+            },
+            {
+               "id": 16,
+               "letters_selected": "BRRU+VEL",
+               "place": "M11",
+               "solution": "VERRA",
+               "top_points": 29,
+               "comments": "",
+               "sc_game_id": 3
+            },
+            {
+               "id": 17,
+               "letters_selected": "U+IEENZM",
+               "place": "A4",
+               "solution": "DEMINEZ",
+               "top_points": 54,
+               "comments": "DENUIEZ en A4 = 51 pts",
+               "sc_game_id": 3
+            },
+            {
+               "id": 18,
+               "letters_selected": "U+R",
+               "place": "M2",
+               "solution": "RU",
+               "top_points": 10,
+               "comments": "",
+               "sc_game_id": 3
+            }
+         ]
+      },
+      {
+         "id": 4,
+         "game": [
+            {
+               "id": 1,
+               "letters_selected": "OPHIENI",
+               "place": "H3",
+               "solution": "PHONIE",
+               "top_points": 30,
+               "comments": "HOPIE = 28",
+               "sc_game_id": 4
+            },
+            {
+               "id": 2,
+               "letters_selected": "I+ORGLYF",
+               "place": "G5",
+               "solution": "GIRLY",
+               "top_points": 36,
+               "comments": "YIN en G5 = 32 pts - S.MYRIAM",
+               "sc_game_id": 4
+            },
+            {
+               "id": 3,
+               "letters_selected": "FO+NAAKD",
+               "place": "2D",
+               "solution": "NAFKA",
+               "top_points": 49,
+               "comments": "KOAN en 2F = 45pts - AKAN en F9 = 44 pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 4,
+               "letters_selected": "DO+WUEAC",
+               "place": "F8",
+               "solution": "CADE",
+               "top_points": 27,
+               "comments": "ou en 1A - Pensez à CADE-T ",
+               "sc_game_id": 4
+            },
+            {
+               "id": 5,
+               "letters_selected": "OUW+NAAL",
+               "place": "5E",
+               "solution": "WAGON",
+               "top_points": 30,
+               "comments": "AWALE en 11B = 28pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 6,
+               "letters_selected": "ALOU+VII",
+               "place": "3C",
+               "solution": "VOUA",
+               "top_points": 29,
+               "comments": "Pensez à A-VOUA - LOVA en 1A =27pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 7,
+               "letters_selected": "IIL+ETBC",
+               "place": "B11",
+               "solution": "CIBLE",
+               "top_points": 26,
+               "comments": "LICITE en 12B = 24 pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 8,
+               "letters_selected": "EM+JAAMR",
+               "place": "4B",
+               "solution": "JAM",
+               "top_points": 35,
+               "comments": "JAM en D12 = 33 pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 9,
+               "letters_selected": "AEMR+GTT",
+               "place": "B1",
+               "solution": "TRAJET",
+               "top_points": 38,
+               "comments": "MAJE en B2 = 32pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 10,
+               "letters_selected": "GM+OA?SH",
+               "place": "14I",
+               "solution": "(T)HOMAS",
+               "top_points": 95,
+               "comments": "S.ORD - OU CHOMAS",
+               "sc_game_id": 4
+            },
+            {
+               "id": 11,
+               "letters_selected": "G+UIQANU",
+               "place": "M9",
+               "solution": "GNAQUAI",
+               "top_points": 34,
+               "comments": "QINGS en N10 = 29pts ",
+               "sc_game_id": 4
+            },
+            {
+               "id": 12,
+               "letters_selected": "U+EEIMRL",
+               "place": "13C",
+               "solution": "IMBRULEE",
+               "top_points": 84,
+               "comments": "LUMIERE ou MEULIER en A5 = 79 pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 13,
+               "letters_selected": "SZBEELO",
+               "place": "A5",
+               "solution": "BELEZ",
+               "top_points": 54,
+               "comments": "BEEZ en A5=51pts - ZOBS en J2= 51pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 14,
+               "letters_selected": "OS+FREEN",
+               "place": "11B",
+               "solution": "FORCENES",
+               "top_points": 64,
+               "comments": "WAGONNEES en 5E = 38pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 15,
+               "letters_selected": "EDONSXU",
+               "place": "J1",
+               "solution": "EXONS",
+               "top_points": 50,
+               "comments": "INOX en 6G = 35pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 16,
+               "letters_selected": "DU+SSI?O",
+               "place": "N5",
+               "solution": "SU(E)DOIS",
+               "top_points": 70,
+               "comments": "OU DISSOUS",
+               "sc_game_id": 4
+            },
+            {
+               "id": 17,
+               "letters_selected": "PUIDEES",
+               "place": "O7",
+               "solution": "SUIDE",
+               "top_points": 39,
+               "comments": "ou SEIDE - DEPAYSE en 9C = 35pts",
+               "sc_game_id": 4
+            },
+            {
+               "id": 18,
+               "letters_selected": "EP+RREUT",
+               "place": "1I",
+               "solution": "REPUTEE",
+               "top_points": 30,
+               "comments": "ou REPETER ou REPUTER",
+               "sc_game_id": 4
+            }
+         ]
+      },
+      {
+         "id": 5,
+         "game": [
+            {
+               "id": 1,
+               "letters_selected": "IRSORUE",
+               "place": "H4",
+               "solution": "SOURIRE",
+               "top_points": 66,
+               "comments": "VU PART TOUT LE MONDE",
+               "sc_game_id": 5
+            },
+            {
+               "id": 2,
+               "letters_selected": "EROIHBP",
+               "place": "4A",
+               "solution": "PROHIBES",
+               "top_points": 86,
+               "comments": "PHOBIES en 4B = 28 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 3,
+               "letters_selected": "AFVERST",
+               "place": "A1",
+               "solution": "FRAPES",
+               "top_points": 33,
+               "comments": "PAVES - PAVER - PERFS en A4 = 30 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 4,
+               "letters_selected": "YKNAEOS",
+               "place": "2A",
+               "solution": "RYOKANS",
+               "top_points": 54,
+               "comments": "S. BAPTISTE - YAKS en 11E = 52 pts ",
+               "sc_game_id": 5
+            },
+            {
+               "id": 5,
+               "letters_selected": "E+EEVTSZ",
+               "place": "1G",
+               "solution": "VETEZ",
+               "top_points": 56,
+               "comments": "VETEZ en 11D SEULEMENT 51 pts  - ZESTEE en 11H = 47 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 6,
+               "letters_selected": "UPTTENA",
+               "place": "5F",
+               "solution": "ETOUPANT",
+               "top_points": 76,
+               "comments": "PARURENT - REPUTANT - PETUNAIT - PIEUTANT",
+               "sc_game_id": 5
+            },
+            {
+               "id": 7,
+               "letters_selected": "LLEEEE?",
+               "place": "L4",
+               "solution": "EN(S)ELLEE",
+               "top_points": 66,
+               "comments": "S. BAPTISTE - PELEMELE en J5 = 63 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 8,
+               "letters_selected": "GMETALI",
+               "place": "8C",
+               "solution": "LEGITIMA",
+               "top_points": 61,
+               "comments": "sinon ALLEGI - GELAIT - GELATI en 8J = 21 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 9,
+               "letters_selected": "IIIVEUR",
+               "place": "E4",
+               "solution": "IRE",
+               "top_points": 28,
+               "comments": "S. ERIC",
+               "sc_game_id": 5
+            },
+            {
+               "id": 10,
+               "letters_selected": "IIIUV+MD",
+               "place": "1E",
+               "solution": "DUVETEZ",
+               "top_points": 25,
+               "comments": "S. ANNIE ET THIERRY - on pouvait RE-RI-DU-DE-VETEZ",
+               "sc_game_id": 5
+            },
+            {
+               "id": 11,
+               "letters_selected": "IIIMV+AU",
+               "place": "K11",
+               "solution": "VAU",
+               "top_points": 34,
+               "comments": "QINGS en N10 = 29pts ",
+               "sc_game_id": 5
+            },
+            {
+               "id": 12,
+               "letters_selected": "IIIM+AGM",
+               "place": "J10",
+               "solution": "MIMAI",
+               "top_points": 24,
+               "comments": "IMAM - MIAM - MIMA = 21 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 13,
+               "letters_selected": "GI+WUFON",
+               "place": "C7",
+               "solution": "FLOW",
+               "top_points": 21,
+               "comments": "LOUF en 8L = 21 pts - GNIOUF en E8 = 20 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 14,
+               "letters_selected": "GINU+DAL",
+               "place": "M3",
+               "solution": "LUTINA",
+               "top_points": 22,
+               "comments": "S. BAPTISTE - UGNI en D10 = 21 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 15,
+               "letters_selected": "DTOE?NJ",
+               "place": "15D",
+               "solution": "JOD(L)ENT",
+               "top_points": 124,
+               "comments": "JODLER - IODER - YODLER - DEJAUNIT en 13G = 50pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 16,
+               "letters_selected": "IEEOUXH",
+               "place": "2I",
+               "solution": "EX",
+               "top_points": 64,
+               "comments": "HOUX en N1  = 46 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 17,
+               "letters_selected": "EHIOU+SA",
+               "place": "12H",
+               "solution": "HUMAS",
+               "top_points": 42,
+               "comments": "BEHAIES en F4 = 35 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 18,
+               "letters_selected": "AEIO+DBA",
+               "place": "8A",
+               "solution": "DELEGITIMA",
+               "top_points": 39,
+               "comments": "ZOB EN k1 = 26 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 19,
+               "letters_selected": "AABIO+TI",
+               "place": "K1",
+               "solution": "ZOB",
+               "top_points": 26,
+               "comments": "BOITAI en 13 C = 23 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 20,
+               "letters_selected": "AAIIT+CQ",
+               "place": "N2",
+               "solution": "QAT",
+               "top_points": 25,
+               "comments": "TEC en 6D = 24 pts",
+               "sc_game_id": 5
+            },
+            {
+               "id": 21,
+               "letters_selected": "ACII+LSC",
+               "place": "N8",
+               "solution": "CICLAIS",
+               "top_points": 89,
+               "comments": "SCIAI - SICLA - SLICA en 11C = 31pts",
+               "sc_game_id": 5
+            }
+         ]
+      },
+      {
+         "id": 6,
+         "game": [
+            {
+               "id": 1,
+               "letters_selected": "LSERMIE",
+               "place": "H4",
+               "solution": "MERISE",
+               "top_points": 18,
+               "comments": "ou EMERIS-MERLES-MILERS-MIREES-MISERE",
+               "sc_game_id": 6
+            },
+            {
+               "id": 2,
+               "letters_selected": "L+TGODRA",
+               "place": "G5",
+               "solution": "TOLARD",
+               "top_points": 21,
+               "comments": "ou DORAT-DOLAT",
+               "sc_game_id": 6
+            },
+            {
+               "id": 3,
+               "letters_selected": "G+EEAKSA",
+               "place": "11E",
+               "solution": "GEEKAS",
+               "top_points": 40,
+               "comments": "",
+               "sc_game_id": 6
+            },
+            {
+               "id": 4,
+               "letters_selected": "A+MINREX",
+               "place": "5E",
+               "solution": "EXTERMINA",
+               "top_points": 126,
+               "comments": "MARXIEN en 3C = 96pts - sans scrabbler EXAMINAS en 8A = 60pts ",
+               "sc_game_id": 6
+            },
+            {
+               "id": 5,
+               "letters_selected": "FGLIUNA",
+               "place": "N3",
+               "solution": "FLINGUA",
+               "top_points": 83,
+               "comments": "sans scrabbler GIFLA en N4 = 37 pts",
+               "sc_game_id": 6
+            },
+            {
+               "id": 6,
+               "letters_selected": "CHOLNA?",
+               "place": "12A",
+               "solution": "LACHON(S)",
+               "top_points": 87,
+               "comments": "CHABLON - CHALONE en M9 = 85 pts",
+               "sc_game_id": 6
+            },
+            {
+               "id": 7,
+               "letters_selected": "EUTAERS",
+               "place": "O8",
+               "solution": "SATUREE",
+               "top_points": 82,
+               "comments": "SATUREE en C3 = 76 pts pour former E-MERISE",
+               "sc_game_id": 6
+            },
+            {
+               "id": 8,
+               "letters_selected": "UIRYOBL",
+               "place": "A7",
+               "solution": "BROUILLY",
+               "top_points": 107,
+               "comments": "S.ORD - sous-top RULLY en 4k = 56 pts aussi S.ORD",
+               "sc_game_id": 6
+            },
+            {
+               "id": 9,
+               "letters_selected": "MDTLEEE",
+               "place": "4A",
+               "solution": "DEMELE",
+               "top_points": 33,
+               "comments": "DETELE même place = 31 pts",
+               "sc_game_id": 6
+            },
+            {
+               "id": 10,
+               "letters_selected": "T+OCEEUF",
+               "place": "14J",
+               "solution": "COUVEE",
+               "top_points": 34,
+               "comments": "ou VOUTEE - ETEUF en B2  = 32 pts",
+               "sc_game_id": 6
+            },
+            {
+               "id": 11,
+               "letters_selected": "QRTIIAI",
+               "place": "O1",
+               "solution": "RIAIT",
+               "top_points": 47,
+               "comments": "ou IRAIT ",
+               "sc_game_id": 6
+            },
+            {
+               "id": 12,
+               "letters_selected": "IQ+AIFDH",
+               "place": "15G",
+               "solution": "HIFI",
+               "top_points": 34,
+               "comments": "S.ORD ",
+               "sc_game_id": 6
+            },
+            {
+               "id": 13,
+               "letters_selected": "NSANTZO",
+               "place": "15A",
+               "solution": "SONNA",
+               "top_points": 78,
+               "comments": "",
+               "sc_game_id": 6
+            },
+            {
+               "id": 14,
+               "letters_selected": "TZ+QUEEE",
+               "place": "L4",
+               "solution": "ENQUETEZ",
+               "top_points": 100,
+               "comments": "ENTEZ en L4 = 48 pts",
+               "sc_game_id": 6
+            },
+            {
+               "id": 15,
+               "letters_selected": "OATSPN?",
+               "place": "C2",
+               "solution": "POM(P)ANTS",
+               "top_points": 74,
+               "comments": "ou AMPUTONS - EMPATONS - IMPOSANT",
+               "sc_game_id": 6
+            },
+            {
+               "id": 16,
+               "letters_selected": "DBUTJVW",
+               "place": "A1",
+               "solution": "JUDD",
+               "top_points": 39,
+               "comments": "sinon WAD en 6B = 33 pts",
+               "sc_game_id": 6
+            },
+            {
+               "id": 17,
+               "letters_selected": "BTVW+EPS",
+               "place": "14F",
+               "solution": "WEB",
+               "top_points": 43,
+               "comments": "dans le championnat S.MYRIAM",
+               "sc_game_id": 6
+            }
+         ]
+      },
+      {
+         "id": 7,
+         "game": [
+            {
+               "id": 1,
+               "letters_selected": "EEDRVAJ",
+               "place": "H4",
+               "solution": "JARDE",
+               "top_points": 42,
+               "comments": "VU PAR TOUS",
+               "sc_game_id": 7
+            },
+            {
+               "id": 2,
+               "letters_selected": "EV+PEARL",
+               "place": "8A",
+               "solution": "PRELAVEE",
+               "top_points": 92,
+               "comments": "RAVALEE en 5E = 40  pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 3,
+               "letters_selected": "EEGROUN",
+               "place": "E11",
+               "solution": "ENGOUERA",
+               "top_points": 68,
+               "comments": "GOUVERNE en F5 = 66 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 4,
+               "letters_selected": "HUBBIRS",
+               "place": "1D",
+               "solution": "HERBUS",
+               "top_points": 45,
+               "comments": "",
+               "sc_game_id": 7
+            },
+            {
+               "id": 5,
+               "letters_selected": "BI+IQNOA",
+               "place": "2H",
+               "solution": "NIQAB",
+               "top_points": 34,
+               "comments": "QING en 3B = 24 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 6,
+               "letters_selected": "IO+TAEKU",
+               "place": "C3",
+               "solution": "ATIEKE",
+               "top_points": 50,
+               "comments": "S.ORD - ou ATTIEKE - TOKAJ en 4D = 42 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 7,
+               "letters_selected": "OU+MLOSA",
+               "place": "B2",
+               "solution": "MAULS",
+               "top_points": 26,
+               "comments": "S.PHILIPPE - ou JOUALS en 4H = 26 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 8,
+               "letters_selected": "OO+TESUN",
+               "place": "L1",
+               "solution": "EBOUTONS",
+               "top_points": 74,
+               "comments": "JEUNOTS ou JOUTONS en 4H = 28 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 9,
+               "letters_selected": "AINCLTO",
+               "place": "A8",
+               "solution": "POLICANT",
+               "top_points": 95,
+               "comments": "PICOLANT en A8 = 89 pts - LACTATION en 5G = 72 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 10,
+               "letters_selected": "ZIYVELL",
+               "place": "8J",
+               "solution": "LYSIEZ",
+               "top_points": 72,
+               "comments": "VELEZ en 1K = 56 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 11,
+               "letters_selected": "LV+TEAAN",
+               "place": "15A",
+               "solution": "TAVELANT",
+               "top_points": 86,
+               "comments": "CAVALENT en 12A = 78 pts - AVALANTE en 13A = 74 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 12,
+               "letters_selected": "OFSETAH",
+               "place": "O1",
+               "solution": "HAVES",
+               "top_points": 34,
+               "comments": "OYATS en K7 = 30 pts ",
+               "sc_game_id": 7
+            },
+            {
+               "id": 13,
+               "letters_selected": "FOT+CRIE",
+               "place": "O1",
+               "solution": "FRICOTEZ",
+               "top_points": 125,
+               "comments": "FRICOTEE ou FEROCITE en N1 = 80 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 14,
+               "letters_selected": "XEIGNTS",
+               "place": "3I",
+               "solution": "XI",
+               "top_points": 52,
+               "comments": "S.CHRISTINE - EXIGES en G8 = 50 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 15,
+               "letters_selected": "EGNST+ER",
+               "place": "N7",
+               "solution": "SERGENTE",
+               "top_points": 78,
+               "comments": "S.ORD - REGENTES en N7 = 74 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 16,
+               "letters_selected": "WIEFUP?",
+               "place": "J6",
+               "solution": "PIL(A)W",
+               "top_points": 41,
+               "comments": "S.CHANTAL - FUSE en 15L = 39 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 17,
+               "letters_selected": "EFU+MEDR",
+               "place": "14F",
+               "solution": "FEUE",
+               "top_points": 43,
+               "comments": "",
+               "sc_game_id": 7
+            },
+            {
+               "id": 18,
+               "letters_selected": "DDM+USIM",
+               "place": "9C",
+               "solution": "SUIE",
+               "top_points": 34,
+               "comments": "SUD en M2 = 30 pts",
+               "sc_game_id": 7
+            },
+            {
+               "id": 19,
+               "letters_selected": "DDMM+?O",
+               "place": "11J",
+               "solution": "SOMME",
+               "top_points": 27,
+               "comments": "",
+               "sc_game_id": 7
+            }
+         ]
+      }
+   ]
+}
