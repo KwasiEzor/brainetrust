@@ -2,15 +2,20 @@
 @section('content')
     <div class="content py-5 px-3">
         <div class="row">
+
+
+            <!--Post session message end -->
             <div class="col-md-10 mx-auto">
+
                 <div class="card">
                     <div class="card-header ">
                         <h3 class="card-title">Posts</h3>
                         <a href="{{route('admin.posts.create')}}" class="btn btn-primary float-right">
                             <i class="fas fa-plus-square mr-1"></i>
-                            New Role
+                            New Post
                         </a>
                     </div>
+
                     <!-- /.card-header -->
                     <div class="card-body">
                         <table class="table table-bordered">
@@ -34,11 +39,14 @@
                                         {{$post->created_at}}
                                     </td>
                                     <td class="d-flex align-items-center justify-content-center">
-                                        <a href="{{route('admin.roles.edit',$post)}}" class="btn btn-success mr-2">
+                                        <a href="{{route('admin.posts.show',$post)}}" class="btn btn-success mr-2">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a href="{{route('admin.posts.edit',$post)}}" class="btn btn-warning mr-2">
                                             <i class="fas fa-edit"></i>
                                         </a>
                                         @can('delete')
-                                            <form action="{{route('admin.roles.delete',$post)}}"  id="admin-delete-role" method="POST">
+                                            <form action="{{route('admin.posts.delete',$post)}}"  id="admin-delete-role" method="POST">
                                                 @csrf()
                                                 @method('DELETE')
                                                 <button class="btn btn-danger" type="submit" onclick="confirm('Are you sure ?'); document.getElementById('admin-delete-role').submit()">

@@ -27,7 +27,7 @@ class UpdateUserRequest extends FormRequest
         return [
             //
             'name'=>'sometimes|string|max:255',
-            'email'=>'sometimes|email|max:255|unique:users',
+            'email'=>'sometimes|email|max:255|unique:users,'.$this->id,
             'password'=>['sometimes',Password::defaults()]
         ];
     }

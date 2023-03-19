@@ -9,9 +9,9 @@
 
                     </div>
                     <!-- /.card-header -->
-                    <form action="{{route('admin.users.update',$user)}}" method="POST" class="admin-user-update">
+                    <form action="{{route('admin.users.update',$user)}}" method="POST" class="admin-user-profile-update">
                         @csrf
-                        @method('PATCH')
+                        @method('PUT')
                         <div class="card-body">
 
                             <div class="form-group">
@@ -37,9 +37,25 @@
                                 </span>
                                 @enderror
                             </div>
-                            <hr class="divider w-50 mx-auto bg-dark mt-4 mb-2">
-                            <div class="text-center">
-                                <p class="text-muted">Password update is optional</p>
+
+                        </div>
+                        <hr class="divider w-50 mx-auto bg-dark mt-4 mb-2">
+                        <div class="text-center">
+                            <p class="text-muted">Password update </p>
+                        </div>
+                        <!-- /.card-body -->
+
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="password" class="form-label mb-2">
+                                    Current Password
+                                </label>
+                                <input type="password" name="current_password" id="password" class="form-control w-100 @error('current_password') is-invalid @enderror">
+                                @error('current_password')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
                             </div>
                             <div class="form-group">
                                 <label for="password" class="form-label mb-2">
@@ -56,20 +72,21 @@
                                 <label for="password-confirm" class="form-label mb-2">
                                     Password confirm
                                 </label>
-                                <input type="password" name="password_confirmation" id="password-confirm" class="form-control w-100 @error('password_confirm') is-invalid @enderror">
-                                @error('password_confirm')
+                                <input type="password" name="password_confirmation" id="password-confirm" class="form-control w-100 @error('password_confirmation') is-invalid @enderror">
+                                @error('password_confirmation')
                                 <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                 </span>
                                 @enderror
                             </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                        <div class="card-footer clearfix">
-                            <button type="submit" class="btn btn-success">Update User</button>
+                            <div class="card-footer clearfix">
+                                <button type="submit" class="btn btn-success">Update Profile</button>
+                            </div>
                         </div>
                     </form>
+
+
+
                 </div>
                 <!-- /.card -->
 

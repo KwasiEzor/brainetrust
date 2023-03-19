@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+use App\Models\Category;
+use App\Models\Tag;
+use App\Models\User;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Validation\Rules\Password;
@@ -46,6 +49,13 @@ class AppServiceProvider extends ServiceProvider
                 'roles'=>Role::all(),
                 'permissions'=>Permission::all(),
             ]);
+        });
+        view()->composer('admin.posts.create',function($view){
+            $view->with([
+                    'categories'=>Category::all(),
+                    'users'=>User::all(),
+                    'tags'=>Tag::all(),
+                ]);
         });
     }
 }

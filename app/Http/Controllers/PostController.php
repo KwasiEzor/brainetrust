@@ -7,18 +7,33 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         //
-        $posts = Post::withCount('likes')
-                    ->with('category','comments','likes')->get();
+        $validatedData = $request->validate([
+            'search' => 'string|nullable',
+        ]);
+        $search = $request->input('search','');
+        $relationships = ['user','category'];
 
-        return $posts;
+        if(!empty($search)){
+
+           return  Post::apply($validatedData, $relationships, $search)->get();
+
+        }else{
+
+           return  Post::withCount('likes')
+                ->with(['category','comments','likes','tags'])->get();
+
+        }
+
+
     }
 
     /**
@@ -51,7 +66,7 @@ class PostController extends Controller
     public function show(Post $post)
     {
         //
-        return $post->load('category','comments');
+        return $post->load('category','comments','likes','tags');
     }
 
     /**

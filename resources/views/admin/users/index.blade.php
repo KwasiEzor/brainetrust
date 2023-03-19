@@ -2,7 +2,7 @@
 @section('content')
     <div class="content py-5 px-3">
         <div class="row">
-            <div class="col-md-10 mx-auto">
+            <div class="col-md-12 mx-auto">
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Users</h3>

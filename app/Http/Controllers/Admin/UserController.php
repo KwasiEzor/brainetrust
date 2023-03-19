@@ -101,12 +101,21 @@ class UserController extends Controller
     public function update(UpdateUserRequest $request, User $user)
     {
         //
-        if($request->filled('password')){
-            $user->update([
-                'password'=>Hash::make($request->input('password'))
-            ]);
+        $authUser = auth()->user();
+        $authUser->update($request->safe()->only(['name','email']));
+
+        if($request->filled('current_password','password')){
+            $validated = $request->safe()->only(['current_password','password','password_confirmation']);
+            $validated['password'] = Hash::make($validated['password']);
+            $authUser->update($validated);
         }
-        $user->update($request->validated());
+       /* $validatedData = $request->validated();
+
+
+        if ($request->has('password')) {
+            $validatedData['password'] = Hash::make($validatedData['password']);
+        }
+        $user->update($validatedData);*/
         return redirect()->route('admin.users.index')->with('success','User created successfully');
     }
 

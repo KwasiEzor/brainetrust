@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Admin\PostController;
+use App\Http\Controllers\Admin\UpdateUserPasswordController;
+use App\Http\Controllers\HomepageController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -14,10 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', [HomepageController::class,'index'])->name('homepage');
+// Public posts routes
 Route::resource('posts',\App\Http\Controllers\PostController::class);
 
 Route::get('/admin',[\App\Http\Controllers\Admin\AdminController::class,'login'])->name('admin.login');
@@ -33,9 +34,12 @@ Route::group(['middleware' => ['role:super-admin|admin']], function () {
         Route::put('/admin/users/{user}/roles','addRoles')->name('admin.users.add-roles');
         Route::put('/admin/users/{user}/permissions','givePermissions')->name('admin.users.add-permissions');
         Route::get('/admin/users/{user}/edit','edit')->name('admin.users.edit');
-        Route::patch('/admin/users/{user}','update')->name('admin.users.update');
+        Route::put('/admin/users/{user}','update')->name('admin.users.update');
         Route::delete('/admin/users/{user}','destroy')->name('admin.users.delete');
     });
+   /* Route::put('/admin/users/password/{id}',UpdateUserPasswordController::class)->name('admin.user.password-update');
+    Route::put('/admin/users/profile/{id}',UpdateUserPasswordController::class)->name('admin.user.profile-update');*/
+
     Route::controller(\App\Http\Controllers\Admin\PermissionController::class)->group(function(){
         Route::get('/admin/permissions','index')->name('admin.permissions.index');
         Route::get('/admin/permission','create')->name('admin.permissions.create');
@@ -53,13 +57,14 @@ Route::group(['middleware' => ['role:super-admin|admin']], function () {
         Route::delete('/admin/roles/{role}','destroy')->name('admin.roles.delete');
     });
 
-    Route::controller(\App\Http\Controllers\Admin\PostController::class)->group(function(){
+    Route::controller(PostController::class)->group(function(){
         Route::get('/admin/posts','index')->name('admin.posts.index');
-        Route::get('/admin/post','create')->name('admin.posts.create');
+        Route::get('/admin/posts/create','create')->name('admin.posts.create');
+        Route::get('/admin/posts/{post}','show')->name('admin.posts.show');
+        Route::get('/admin/posts/{post}/edit','edit')->name('admin.posts.edit');
         Route::post('/admin/posts','store')->name('admin.posts.store');
-        Route::get('/admin/posts/{post}','edit')->name('admin.posts.edit');
         Route::put('/admin/posts/{post}','update')->name('admin.posts.update');
-        Route::delete('/admin/posts/{role}','destroy')->name('admin.posts.delete');
+        Route::delete('/admin/posts/{post}','destroy')->name('admin.posts.delete');
     });
 });
 Auth::routes();

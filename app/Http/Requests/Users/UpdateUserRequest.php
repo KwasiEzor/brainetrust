@@ -2,8 +2,10 @@
 
 namespace App\Http\Requests\Users;
 
+use App\Rules\UpdateUserRule;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rules\Password;
+use Illuminate\Validation\Rule;
 
 class UpdateUserRequest extends FormRequest
 {
@@ -27,8 +29,13 @@ class UpdateUserRequest extends FormRequest
         return [
             //
             'name'=>'sometimes|string|max:255',
-            'email'=>'sometimes|email|max:255|unique:users',
-            'password'=>['sometimes',Password::defaults(),'confirmed']
+            'email' => [
+                    'required',
+                    'email',
+                Rule::unique('users')->ignore(auth()->user()),
+                ],
+            'current_password'=>['required', new UpdateUserRule()],
+            'password'=>['required',Password::defaults(),'confirmed']
         ];
     }
 }
